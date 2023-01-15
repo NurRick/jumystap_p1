@@ -1,0 +1,76 @@
+.fourth-section {
+    background-color: #F1F1F1;
+    padding: 64px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 128px;
+}
+
+.upload-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 100px;
+    color: white;
+    background-color: #712FFF;
+    width: 114px;
+    height: 50px;
+}
+
+.upload-button p {
+    padding: 16px 24px 16px 16px;
+}
+
+.fourth-section-cont img {
+    width: 619px;
+    height: 420px;
+} 
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.content2 h1 {
+    margin: 0;
+}
+
+.content2 p {
+    margin: 0;
+}
+
+.last-section {
+    padding: 32px 80px;
+    border-start-start-radius: 32px;
+    border-start-end-radius: 32px;
+    background-color: white;
+}
+
+.last-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.last-buttons button {
+    background-color: white;
+}
+
+.last-text p {
+    margin: 0;
+}
+
+.nFactlorial {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+}

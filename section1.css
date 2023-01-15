@@ -1,0 +1,154 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Kanit:wght@500;700&display=swap');
+
+ h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: inherit;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #F1F1F1;
+}
+
+
+.welcome-section {
+    padding-top: 20px;
+    padding-bottom: 100px;
+   
+}
+
+button {
+    border: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+.nav-menu {
+    display: flex;
+    width: 40%;
+    gap: 16px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav-menu button{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+li {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.nav-logo {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-logo h4 {
+    width: 30%;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-button .startButton {
+    background-color: #081E341F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 38px;
+    border-radius: 100px;
+}
+
+header img {
+    width: 15px;
+    height: 15px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text h1 {
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.content-text p {
+    padding-top: 32px;
+    margin-bottom: 0px;
+    /* width: 495px;
+    height: 44px; */
+}
+
+div.h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    font-size: 50px;
+}
+
+
+.content-image img{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 32px;
+    width: 619px;
+    height: 420px;
+    /* left: -34px;
+    top: -12px; */
+}
+
+.content-button {
+    background-color: #712FFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    width: 144px;
+    height: 50px;
+    border-radius: 100px;
+
+}
