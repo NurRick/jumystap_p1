@@ -155,11 +155,9 @@
     .fourth-section {
         display: flex;
         flex-direction: column;
-        padding-top: 3%;
-        padding-right: 3%;
-        padding-left: 3%;
+        padding: 64px 10%;
         justify-content: space-between;
-        /* gap: 128px; */
+        gap: 128px;
     }
 
 
@@ -178,15 +176,53 @@
         
     }
     
-
-
-
     .fourth-section-cont img {
-        width: 90%;
+        width: 100%;
         height: 100%;
 
     }
 
+    .content2 h1 {
+        text-align: center;
+        font-size: 24pt;
+    }
+
+    .last-section {
+        display: flex;
+        flex-direction: column;
+        padding: 32px 10%;
+        gap: 0;
+    }
+
+
+
+
+    .last-line {
+        flex-direction: column;
+        
+    }
+
+    .last-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+        
+        
+    }
+
+    .last-buttons button {
+        font-size: 14pt;
+        padding: 10px 14px;
+        text-align: right;
+       
+    }
+
+    .last-text {
+        padding: 40px 0%;
+    }
+
+    .nFactlorial {
+        flex-direction: row;
+    }
 
 
 }-->
