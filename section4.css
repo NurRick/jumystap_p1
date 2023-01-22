@@ -8,6 +8,8 @@
 }
 
 .upload-button {
+    padding: 16px 24px 16px 16px;
+    gap: 8px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,10 +18,6 @@
     background-color: #712FFF;
     width: 114px;
     height: 50px;
-}
-
-.upload-button p {
-    padding: 16px 24px 16px 16px;
 }
 
 .fourth-section-cont img {
